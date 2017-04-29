@@ -1,0 +1,24 @@
+{
+    "name": "Products lib",
+    "description": "A lib to make a CRUD of products",
+    "authors": [
+        {
+            "name": "Tiago Paes",
+            "email": "tiagopaes37@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":
+        {
+            "App\\": 
+            [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require-dev": {
+        "php": ">=5.2.8",
+        "phpunit/phpunit": "6.1.*"
+    }
+}
